@@ -1,0 +1,162 @@
+body {
+  background-color: #694c32;
+  color: #ffebcd;
+}
+
+#picture-profil {
+  border-radius: 10%;
+}
+
+.contact-icones {
+  width: 15px;
+  height: 15px;
+  margin-bottom: -15px;
+  margin-right: 180px;
+}
+
+#icone1 {
+  width: 20px;
+  height: 20px;
+}
+
+#icone2 {
+  width: 20px;
+  height: 20px;
+  margin-right: 280px;
+}
+
+#icone3 {
+  width: 20px;
+  height: 20px;
+  margin-right: 400px;
+}
+
+.contact-title {
+  margin-bottom: -30px;
+  margin-left: -60px;
+}
+
+.title-middle {
+  margin-bottom: -15px;
+  margin-left: 30px;
+}
+
+#about-me {
+  background: #8a6037;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+#about-me .progress {
+  background: #462608;
+  margin: 10px 10px;
+  border-radius: 8px;
+}
+
+#about-me .progress-bar {
+  background: #d47f2f;
+  border-radius: 8px;
+}
+
+#exp {
+  text-align: left;
+  margin-left: 300px;
+}
+
+#schools {
+  position: relative;
+  margin-top: -700px;
+  margin-left: 950px;
+}
+
+#more-infos {
+  position: relative;
+  margin-left: 950px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1,
+h3,
+h4,
+h5,
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divider {
+  width: 150px;
+  height: 2px;
+  background: #333;
+  margin: auto;
+}
+
+#divider1 {
+  width: 165px;
+  height: 2px;
+  background: #333;
+}
+
+#divider2 {
+  width: 165px;
+  height: 2px;
+  background: #333;
+}
+
+#divider3 {
+  width: 365px;
+  height: 2px;
+  background: #333;
+}
+
+@media all and (max-width: 1165px) {
+  #about-me {
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+  }
+
+  #exp,
+  #schools,
+  #more-infos {
+        margin-top: auto;
+        margin-left: auto;
+        text-align: center;
+  }
+
+  #divider1, #divider2, #divider3 {
+        position: relative;
+        margin: auto;
+  }
+
+  #icone1 {
+        margin-left: -130px;
+  }
+
+  #icone2 {
+        margin-left: 150px;
+  }
+
+  #icone3 {
+        margin-left: 55px;
+  }
+}
+
+@media all and (max-width: 361px) {
+    #icone2 {
+        margin-left: 100px;
+    }
+
+    #icone3 {
+        margin-top: -100px;
+        margin-left: 65px;
+    }
+    #divider3 {
+        width: 235px;
+        margin-top: 5px;
+    }
+}
