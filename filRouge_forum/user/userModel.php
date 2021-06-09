@@ -4,6 +4,7 @@ class User
 {
 
     private $id;
+    private $pseudo;
     private $nom;
     private $prenom;
     private $mail;

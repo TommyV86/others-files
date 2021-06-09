@@ -8,19 +8,19 @@ class CommentServices extends ConnectDb
 {
     public function process_comment() : string
     {
-        $commentDao = new CommentDao();
+        $commentDao = new ForumDAO();
         return $commentDao->process_comment();
     }
 
     public function get_games() : array
     {
-        $commentDao = new CommentDao();
+        $commentDao = new ForumDAO();
         return $commentDao->get_games();
     }
 
     public function get_comments() : array
     {
-        $commentDao = new CommentDao();
+        $commentDao = new ForumDAO();
         return $commentDao->get_comments();
     }
 }
